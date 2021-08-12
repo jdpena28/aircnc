@@ -1,0 +1,230 @@
+
+* {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+  }
+  
+  body {
+    margin: 0;
+    background: rgb(245, 245, 245);
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 0.875rem;
+    color: rgb(86, 90, 92);
+    line-height : 1.7;
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  a {
+    font-weight: bold;
+    color: rgb(255, 89, 95);
+    text-decoration: none;
+  }
+  
+  strong {
+    font-weight: 600;
+  }
+  
+  .fontStyle1 {
+      font-size : 14px;
+      color : #909597;
+  }
+  
+  .fontStyle2 {
+      font-size : 22px;
+      font-weight : regular;
+      color : #666A6C;
+  }
+  
+  .centerOnScreen {
+      text-align : center;
+  }
+  
+  
+  /*
+   * Button styles
+  */
+  
+  .button {
+    background: rgb(255, 89, 95);
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.75rem 5rem;
+    border: 1px solid rgb(227, 25, 29);
+    border-radius: 2px;
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  /* Section-specific styles */
+  section {
+      padding : 20px;
+  }
+  
+  /* CompanyLogo */
+  .companyLogo {
+      line-height : 0;
+  }
+  .companyLogo img {
+      border-right : 1px solid #DCE0E0;
+  }
+  
+  /* Profile Background */
+  .profileBackground {
+      padding : 0;
+      line-height : 0;
+  }
+  .profileBackground img {
+      width : 100%;
+  }
+  
+  .profileDetails {
+      background : white;
+      padding : 20px 0;
+  }
+  
+  .profileDetails #owner .name {
+      font-weight : bold;
+  }
+  
+  #owner img {
+      border-radius : 50%;
+  }
+  
+  #ownerDescription .iconTray {
+      padding : 0 1rem ;
+  }
+  .profileDetails .iconsTraits {
+      float : left;
+      margin : 1rem 0;
+      width : 33%;
+  }
+  .profileDetails .iconsTraits img {
+      height : 33px;
+  }
+  
+  .price {
+      font-weight : bolder;
+      font-size : 2rem;
+  }
+  
+  .time {
+      font-size : 1.5rem;
+  }
+  
+  
+  /* About section */
+  
+  .aboutSection {
+      background-color : #F5F5F5;
+  }
+  .about,#care,.gamesSection {
+      border-bottom : 2px solid #DCE0E0;
+  }
+  .about #title,#contactOwner {
+      font-weight : bold;
+      font-size : 1rem;
+  }
+  
+  .about #title {
+      margin : 60px 0 40px 0;
+  }
+  
+  .about #contactOwner{
+      margin : 20px 0;
+  }
+  /* Games section */
+  .games p {
+      display : inline;
+      padding : 0 0 0 5px;
+  }
+  
+  .games {
+      margin : 10px 0;
+  }
+  /* Photos section */
+  .photos img {
+      display : block;
+      margin : 10px auto;
+      width : 50%;
+  }
+  
+  
+  @media only screen and (min-width: 1060px) {
+      
+      section {
+          padding : 0;
+      }
+      .container {
+          width : 85%;
+          margin : 0 auto;
+      }
+      
+      .floatBlock {
+          float : left;
+      }
+      
+      #owner {
+          width : 6rem;
+          float : left;
+      }
+      #ownerDescription {
+          margin : 0 40px;
+          width : 38%;
+          border-right : 1px solid #DCE0E0;
+          height : 9.25rem;
+          float : left;
+      }
+      #ownerDescription h2,h3{
+          text-align : left;
+      }
+      #booking {
+          float : left;
+          width : 23rem;
+      }
+      #ownerDescription .iconTray {
+          padding : 0;
+      }
+      #ownerDescription .iconsTraits{
+          width : inherit;
+          margin-right : 1rem;
+      }
+      .about #title {
+          margin : 60px 0 40px 0;
+      }
+      
+      .about,#care,.gamesSection,.photos {
+          width : 41rem;
+          text-align : justify;
+      }
+      .about #contactOwner {
+          text-align : justify;
+          font-size : 13px;
+          color : #FF595F;
+      }
+      
+      #care , .gamesSection {
+          height : 8.125rem;
+      }
+      .photos img {
+          height : 300px;
+          width : 200px;
+          padding : 28px 27px 80px;
+          display : inline-block;
+      }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
